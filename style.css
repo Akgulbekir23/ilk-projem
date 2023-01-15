@@ -1,0 +1,58 @@
+body {
+    font-size: 15pt;
+    background-color: grey;
+    font-family: sans-serif;
+    color: red;
+    
+}
+banner{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 32px 0;
+  align-items: center;
+  justify-content: start;
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  background:#efefef;
+  border-radius: 15px;
+  float: 50px;
+  margin: 35px;
+
+}
+  
+ul li a:hover {
+  background: red;
+  transition: 0.5s;
+}  
+.musa{
+  position: relative;
+}
+#proje{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  left: 10px;
+  top: 48px;
+
+  
+}
+#proje li a{
+  display: block;
+  color: blueviolet;
+  margin: 0;
+  margin-top: 5px;
+}
+
+
+.musa:hover #proje{
+  display: block;
+}
+
